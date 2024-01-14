@@ -1,0 +1,31 @@
+.screenContainer{
+    margin-left: 240px;
+    margin-top: 10px;
+    height: calc(100vh - 60px);
+    color: #464d48;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin:30px 40px;
+}
+.container .card{
+    flex-basis: calc(30% - 30px);
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 0 6px 0px rgb(219, 235, 241);
+    padding: 20px;
+    height: 180px;
+    text-align: left;
+}
+.container .card h4{
+    margin:0
+}
+.container .card a{
+    text-decoration: none;
+    color: #00affe;
+    font-weight: 500;
+}

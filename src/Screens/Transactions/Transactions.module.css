@@ -1,0 +1,67 @@
+.screenContainer{
+    margin-left: 240px;
+    margin-top: 10px;
+    color: #464d48;
+    padding-bottom: 30px ;
+}
+.container{
+    margin: 30px 40px;
+    border-radius: 16px;
+    width: calc(100% - 120px);
+    background-color:#fff;
+    box-shadow: 0 0 6px 0px rgb(219, 235, 241);
+    height: 350px;
+    padding: 18px;
+}
+.container h2{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 20px;
+}
+.container ul{
+    list-style-type: none;
+    margin: 10px 20px ;
+    padding-left: 0;
+    max-height: 310px;
+    overflow-y: scroll;
+    position: relative;
+}
+.container ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 6px;
+    border-bottom: 1px solid #e1e5e2a7;
+    min-height: 39px;
+}
+.container ul li:first-child{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 2;
+    font-size: 18px;
+    font-weight: 500;
+}
+.container ul li:last-child{
+    border-bottom: none;
+}
+.container ul li span{
+    text-align: left;
+}
+
+.container ul li span:first-child{
+    flex-basis: 10%;
+}
+.container ul li span:nth-child(2){
+    flex-basis: 20%;
+}.container ul li span:nth-child(3){
+    flex-basis: 35%;
+}.container ul li span:nth-child(4){
+    flex-basis: 25%;
+}.container ul li span:nth-child(5){
+    flex-basis: 10%;
+}

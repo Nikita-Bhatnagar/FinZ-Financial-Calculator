@@ -1,0 +1,85 @@
+.screenContainer{
+    margin-left: 240px;
+    margin-top: 10px;
+    height: calc(100vh - 85px);
+    color: #464d48;
+}
+.container{
+    background-color: #fff;
+    border-radius: 16px;
+    width: calc(100% - 130px);
+    margin: 27px 40px 0px 40px;
+    box-shadow: 0 0 6px 0px rgb(219, 235, 241);
+    padding: 30px 30px 15px 30px;
+}
+.container h2{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 20px;
+}
+.formsContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.formContainer{
+    flex-basis: 50%;
+}
+.formContainer form > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding: 8px;
+}
+.formContainer form > div label{
+    max-width: 70%;
+}
+.outputContainer .btn{
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color:#00affe ;
+    cursor: pointer;
+    width: 120px;
+}
+.btn:hover{
+    background-color:#55c8fd ;
+}
+.outputContainer{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 5px;
+}
+.outputContainer > div:first-child{
+    flex-basis: 50%;
+    text-align: start;
+}
+.outputContainer > div:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-basis: 50%;  
+    gap: 6px;  
+    margin-left: 50px;
+    margin-right: 30px;
+}
+.outputContainer > div:last-child p{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0;
+    width: 100%;
+}
